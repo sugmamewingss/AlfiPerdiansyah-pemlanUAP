@@ -22,7 +22,7 @@ public class Torus extends Shape
 
     @Override
     public double getVolume() {
-        return (Math.ceil(PI * minorRadius * minorRadius) * (2 * PI * majorRadius));
+        return (Math.ceil(2 * PI * PI * minorRadius * minorRadius * majorRadius));
     }
 
     @Override
