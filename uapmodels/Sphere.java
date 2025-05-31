@@ -19,7 +19,7 @@ public class Sphere extends Shape
 
     @Override
     public double getVolume() {
-        return (4.0 / 3) * PI * radius * radius * radius;
+        return (Math.ceil((4.0 / 3) * PI * radius * radius * radius));
     }
 
     @Override
